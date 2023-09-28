@@ -21,7 +21,7 @@ header {
     z-index: -1;
 }
 
-.header__menu {
+.menu {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -34,14 +34,14 @@ header {
 
 }
 
-.header__menu__flex {
+.menu__flex {
     display: flex;
     justify-content: space-between;
 
     flex-direction: column;
 }
 
-.header__menu__flexLast {
+.menu__flexLast {
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -66,7 +66,7 @@ header {
     margin-bottom: -20px;
 }
 
-.header__info__imgs {
+.info__imgs {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,7 +76,7 @@ header {
     width: 120px;
 }
 
-.header__info__img {
+.info__img {
     width: 22px;
     height: 22px;
 
@@ -101,7 +101,7 @@ header {
     margin-bottom: -30px;
 }
 
-.header__info {
+.info {
     display: flex;
     justify-content: flex-end;
     align-items: center;
