@@ -41,7 +41,7 @@ header {
     flex-direction: column;
 }
 
-.menu__flexLast {
+.menu__flex-last {
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -59,7 +59,7 @@ header {
     
 }
 
-.header__p__site {
+.p__site {
     color: rgba(40, 113, 163, 1);
     font-size: 16px;
 
@@ -83,7 +83,7 @@ header {
 }
 
 
-.header__p__phone {
+.p__phone {
     color: rgba(36, 107, 161, 1);
     font-family: $lato;
     font-weight: 700;
@@ -91,7 +91,7 @@ header {
     line-height: 40.25px;
 }
 
-.header__p__email {
+.p__email {
     color: rgba(36, 107, 161, 1);
     font-family: $lato;
     font-weight: 400;
