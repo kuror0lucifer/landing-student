@@ -87,4 +87,39 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.icons {
+  margin-top: 10px;
+  margin-left: 315px;
+  margin-right: 755px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-info {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  margin-left: 315px;
+}
+
+.main-info__p {
+  font-family: lato;
+  font-weight: 700;
+}
+
+.main-info__button {
+  width: 298px;
+  height: 67px;
+  background: linear-gradient(178.2deg, #1fd8ee -46.57%, #1fc3ee 158.2%);
+  border: 0;
+  color: white;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
