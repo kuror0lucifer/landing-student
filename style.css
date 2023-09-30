@@ -99,7 +99,7 @@ header {
 
 .main-info {
   display: flex;
-  justify-content: start;
+  justify-content: end;
   align-items: start;
   flex-direction: column;
   margin-left: 315px;
@@ -122,4 +122,42 @@ header {
   line-height: 40px;
   letter-spacing: 0em;
   text-align: center;
+}
+
+.differences {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1041px;
+  height: 307px;
+  margin-top: 300px;
+}
+
+.differences__title {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(19, 187, 207);
+}
+
+.differences__text {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(54, 52, 52);
+}
+
+.differences__flex-item {
+  flex: 1;
+  flex-basis: 50%;
+  width: 500px;
+  height: 150px;
+  margin-bottom: 50px;
 }/*# sourceMappingURL=style.css.map */
