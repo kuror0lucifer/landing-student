@@ -116,12 +116,13 @@ header {
   background: linear-gradient(178.2deg, #1fd8ee -46.57%, #1fc3ee 158.2%);
   border: 0;
   color: white;
-  font-family: Lato;
+  font-family: lato;
   font-size: 24px;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0em;
   text-align: center;
+  border-radius: 4px;
 }
 
 .differences {
@@ -135,7 +136,7 @@ header {
 }
 
 .differences__title {
-  font-family: Lato;
+  font-family: lato;
   font-size: 24px;
   font-weight: 700;
   line-height: 40px;
@@ -145,7 +146,7 @@ header {
 }
 
 .differences__text {
-  font-family: Lato;
+  font-family: lato;
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
@@ -160,4 +161,169 @@ header {
   width: 500px;
   height: 150px;
   margin-bottom: 50px;
+}
+
+.input__title {
+  font-family: lato;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.input__box {
+  width: 788px;
+  height: 690px;
+  margin: 0 auto;
+  padding: 0 50px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.09);
+  border-radius: 4px;
+}
+
+.input__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-input {
+  width: 214px;
+  height: 40px;
+  border-radius: 4px;
+  padding-left: 16px;
+  border: 1px solid rgb(168, 168, 168);
+  color: rgb(168, 168, 168);
+}
+
+.custom-input::-moz-placeholder {
+  font-family: lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(196, 196, 196);
+}
+
+.custom-input::placeholder {
+  font-family: lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(196, 196, 196);
+}
+
+.custom-input:focus {
+  outline: none;
+  color: rgb(54, 52, 52);
+}
+
+.custom-input[type=number]::-webkit-inner-spin-button,
+.custom-input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.input__text {
+  font-family: lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.custom-input-sizeL {
+  width: 492px;
+  height: 40px;
+}
+
+.custom-input-sizeS {
+  width: 123px;
+  height: 40px;
+}
+
+.custom-textarea {
+  border-radius: 4px;
+  padding-left: 16px;
+  border: 1px solid rgb(168, 168, 168);
+  color: rgb(168, 168, 168);
+  resize: none;
+}
+
+.custom-textarea::-moz-placeholder {
+  font-family: lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(196, 196, 196);
+}
+
+.custom-textarea::placeholder {
+  font-family: lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(196, 196, 196);
+}
+
+.custom-textarea:focus {
+  outline: none;
+  color: rgb(54, 52, 52);
+}
+
+.custom-button {
+  width: 230px;
+  height: 40px;
+  font-family: lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-right: 27px;
+}
+
+.input-link {
+  font-family: lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.input__flex-start {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.input__checkbox {
+  border: rgb(168, 168, 168);
+  border-radius: 4px;
+}
+
+.input__checkbox-text {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(168, 168, 168);
+}
+
+.custom-link {
+  color: rgb(168, 168, 168);
 }/*# sourceMappingURL=style.css.map */
