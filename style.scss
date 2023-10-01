@@ -1,4 +1,4 @@
-$lato: lato;
+$lato: "Lato", sans-serif;
 
 header {
   display: flex;
@@ -316,7 +316,6 @@ header {
   line-height: 30px;
   letter-spacing: 0em;
   text-align: center;
-
 }
 
 .input__flex-start {
@@ -325,7 +324,6 @@ header {
   align-items: center;
 }
 
-
 .input__checkbox {
   border: rgba(168, 168, 168, 1);
   border-radius: 4px;
@@ -333,14 +331,114 @@ header {
 
 .input__checkbox-text {
   font-family: Lato;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-color: rgba(168, 168, 168, 1);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(168, 168, 168, 1);
 }
 
 .custom-link {
   color: rgba(168, 168, 168, 1);
+}
+
+.about {
+  width: 100%;
+  height: 431px;
+
+  margin-top: 114px;
+
+  background-image: url(/img/aboutBg.png);
+
+  padding-top: 41px;
+}
+
+.about__title {
+  font-family: $lato;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+
+
+.about__blocks-item {
+  width: 167px;
+  height:101px;
+
+  flex: 1 2 auto;
+  box-sizing: border-box;
+
+  box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.08);
+
+  border-radius: 4px;
+
+  background: rgba(255, 255, 255, 1);
+
+  padding-left: 26px;
+
+
+}
+
+.about__blocks-item-special {
+  width: 399px;
+
+  flex: 2 1 auto;
+  box-sizing: border-box;
+}
+
+.about__blocks {
+display: flex;
+flex-wrap: wrap;
+gap: 25px;
+  
+
+  width: 399px;
+  height: 227px;
+
+  padding-top: 17px;
+}
+
+.about__blocks-title {
+  font-family: $lato;
+  font-size: 22px;
+  font-weight: 400;
+  // line-height: 37px;
+  letter-spacing: 0em;
+
+  margin-bottom: 0;
+  margin-top: 13px;
+
+  color: rgba(40, 113, 163, 1);
+}
+
+
+
+.about__blocks-text {
+  font-family: $lato;
+  font-size: 14px;
+  font-weight: 400;
+  // line-height: 18px;
+  letter-spacing: 0em;
+
+  margin-bottom: 0;
+  margin-top: 10px;
+
+
+
+  color: rgba(54, 52, 52, 1);
+
+  word-wrap: break-word;
+}
+
+.about__text {
+  font-family: $lato;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33.4px;
+
+  color: rgba(54, 52, 52, 1);
 }

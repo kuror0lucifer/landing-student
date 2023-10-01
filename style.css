@@ -39,7 +39,7 @@ header {
 }
 
 .header__p {
-  font-family: lato;
+  font-family: "Lato", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 26.83px;
@@ -68,7 +68,7 @@ header {
 
 .p__phone {
   color: rgb(36, 107, 161);
-  font-family: lato;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 40.25px;
@@ -76,7 +76,7 @@ header {
 
 .p__email {
   color: rgb(36, 107, 161);
-  font-family: lato;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26.83px;
@@ -106,7 +106,7 @@ header {
 }
 
 .main-info__p {
-  font-family: lato;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
 }
 
@@ -116,7 +116,7 @@ header {
   background: linear-gradient(178.2deg, #1fd8ee -46.57%, #1fc3ee 158.2%);
   border: 0;
   color: white;
-  font-family: lato;
+  font-family: "Lato", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 40px;
@@ -136,7 +136,7 @@ header {
 }
 
 .differences__title {
-  font-family: lato;
+  font-family: "Lato", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 40px;
@@ -146,7 +146,7 @@ header {
 }
 
 .differences__text {
-  font-family: lato;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
@@ -164,7 +164,7 @@ header {
 }
 
 .input__title {
-  font-family: lato;
+  font-family: "Lato", sans-serif;
   font-size: 40px;
   font-weight: 400;
   line-height: 61px;
@@ -199,7 +199,7 @@ header {
 }
 
 .custom-input::-moz-placeholder {
-  font-family: lato;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -209,7 +209,7 @@ header {
 }
 
 .custom-input::placeholder {
-  font-family: lato;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -231,7 +231,7 @@ header {
 }
 
 .input__text {
-  font-family: lato;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -258,7 +258,7 @@ header {
 }
 
 .custom-textarea::-moz-placeholder {
-  font-family: lato;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -268,7 +268,7 @@ header {
 }
 
 .custom-textarea::placeholder {
-  font-family: lato;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -285,7 +285,7 @@ header {
 .custom-button {
   width: 230px;
   height: 40px;
-  font-family: lato;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -295,7 +295,7 @@ header {
 }
 
 .input-link {
-  font-family: lato;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -326,4 +326,76 @@ header {
 
 .custom-link {
   color: rgb(168, 168, 168);
+}
+
+.about {
+  width: 100%;
+  height: 431px;
+  margin-top: 114px;
+  background-image: url(/img/aboutBg.png);
+  padding-top: 41px;
+}
+
+.about__title {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.about__blocks-item {
+  width: 167px;
+  height: 101px;
+  flex: 1 2 auto;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  background: rgb(255, 255, 255);
+  padding-left: 26px;
+}
+
+.about__blocks-item-special {
+  width: 399px;
+  flex: 2 1 auto;
+  box-sizing: border-box;
+}
+
+.about__blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  width: 399px;
+  height: 227px;
+  padding-top: 17px;
+}
+
+.about__blocks-title {
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  margin-bottom: 0;
+  margin-top: 13px;
+  color: rgb(40, 113, 163);
+}
+
+.about__blocks-text {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  margin-bottom: 0;
+  margin-top: 10px;
+  color: rgb(54, 52, 52);
+  word-wrap: break-word;
+}
+
+.about__text {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33.4px;
+  color: rgb(54, 52, 52);
 }/*# sourceMappingURL=style.css.map */
