@@ -330,10 +330,10 @@ header {
 
 .about {
   width: 100%;
-  height: 431px;
+  height: 451px;
   margin-top: 114px;
   background-image: url(/img/aboutBg.png);
-  padding-top: 41px;
+  padding-top: 20px;
 }
 
 .about__title {
@@ -398,4 +398,53 @@ header {
   font-size: 20px;
   line-height: 33.4px;
   color: rgb(54, 52, 52);
+}
+
+.reviews__title {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.reviews__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 55px;
+}
+
+.reviews__arrow {
+  width: 19px;
+  height: 34px;
+  background-image: url(/img/arrow-left.png);
+  cursor: pointer;
+}
+
+.reviews__img {
+  width: 609px;
+  height: 379px;
+  background-image: url(/img/reviews.png);
+}
+
+.reviews__arrow-right {
+  transform: rotate(180deg);
+}
+
+.reviews__point-inactive {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: rgb(196, 196, 196);
+}
+
+.reviews__point-active {
+  width: 10px;
+  height: 10px;
+  border: 2px solid rgb(31, 216, 238);
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
