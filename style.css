@@ -497,6 +497,7 @@ header {
   box-sizing: border-box;
   border-radius: 4px;
   background-color: white;
+  box-shadow: 0px 13px 44px 0px rgba(0, 0, 0, 0.07);
 }
 
 .price__blocks-text {
@@ -539,4 +540,53 @@ header {
   height: 67px;
   margin: 0 auto;
   margin-top: 24px;
+}
+
+.stages {
+  margin-top: 93px;
+}
+
+.stages__blocks {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 55px 307px 0 307px;
+}
+
+.stages__blocks-item {
+  width: 30%;
+  height: 120px;
+  background-color: white;
+  box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.14);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+}
+
+.stages__blocks-item:nth-child(3) {
+  margin-right: 0;
+}
+
+.stages__blocks-item:nth-child(6) {
+  margin-right: 0;
+}
+
+.stages__blocks-item:nth-child(7) {
+  margin-right: 0;
+}
+
+.stages__text {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 33px;
+}
+
+.stages__img {
+  margin-left: 40px;
 }/*# sourceMappingURL=style.css.map */
