@@ -783,3 +783,16 @@ header {
   letter-spacing: 0em;
   text-align: center;
 }
+
+.footer {
+  width: 100%;
+  height: 124px;
+
+  background: linear-gradient(90deg, #24292d 0%, #2d313a 49.99%, #24292d 100%);
+
+  padding-top: 35px;
+}
+
+.footer__p {
+  color: white;
+}
